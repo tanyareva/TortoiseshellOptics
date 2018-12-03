@@ -11,31 +11,51 @@ body {
   background-size: cover;
   padding-top: 1rem;
 }
-.headcontainer {
+.head-container {
   width: 960px;
   background-color: cadetblue;
   margin: auto;
   color: white;
-}
-.headcontainer img {
-  height: 1.5rem;
-  padding: 1rem 1rem 1rem 2rem;
-}
-.headcontainer span {
-  padding: 0;
-  margin-top: 0;
-}
-.logo div {
-  display: flex;
-  align-items: center;
-}
-.logo {
   display: flex;
   justify-content: space-between;
 }
+.head-container img {
+  height: 1.5rem;
+  padding: 1rem 1rem 1rem 2rem;
+}
+.head-container span {
+  padding: 0;
+  margin-top: 0;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
 .menu {
-  display: inline-block;
+  display: flex;
+  align-items: center;
 }
 .menu li {
   display: inline;
+  padding: 1rem 2rem;
+}
+.banner-container {
+  width: 960px;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.main-banner {
+  background-color: white;
+  padding: 1rem 5rem;
+  display: inline-block;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
+.main-images {
+  height: 8rem;
+
 }
